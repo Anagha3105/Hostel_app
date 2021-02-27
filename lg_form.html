@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LG Form</title>
+</head>
+<style>
+    .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+h1{
+    color: orange;
+}
+
+
+</style>
+<body>
+    <form>
+    
+        <h1 style="text-align: center;" style="background-color: orange;">Permission Letter</h1>
+        <p>
+            To,<br>
+            The Warden <br>
+            Living Space, Bangalore. <br>
+        </p>
+        <table>
+            <tr>
+                <td>
+                    Student Name:
+                </td>
+                <td>
+                  <input type="text" placeholder="Enter Name"  name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hostel Unit:
+                </td>
+                <td>
+                  <input type="radio" name="Unit">Unit-1
+                  <input type="radio" name="Unit">Unit-2
+                  <input type="radio" name="Unit">Unit-3
+                  <input type="radio" name="Unit">Unit-4
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Room Number:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your room number" name="">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Course/College:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Course/College" name="">
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    Contact Number:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter personal contact no." name="">
+                </td>
+            </tr> 
+ 
+            
+        </table>
+        <p> 
+            Madam,<br>
+            With my parents' permission, I hereby request you to permit me to go to my native place/LG's place. On my return the letter will be duly signed by my parent/local guardian respectively
+        </p>
+        <table>
+            <tr>
+                <td>
+                    Time and Date of going out:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter date of leaving" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Time and Date of return:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter date of return" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Parents'/LG's address:
+                </td>
+                <td>
+                    <input type="text" name="" placeholder="Enter address" style="widows: 50px;;" ><br>
+                
+                    
+                </td>
+                <tr>
+                    <td>
+                       
+                    </td>
+                    <td>
+                        <input type="text" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Pincode" name="">
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    Parent Contact Number :
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter parent's contact no." name="">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    LG Contact Number :
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter LG's contact number" name="">
+                </td>
+            </tr>                                 
+        </table>
+        <button class="button button1">Submit</button>
+
+    </form>
+</body>
+</html>

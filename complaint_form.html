@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+</head>
+<style>
+    .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+h1{
+    color: orange;
+}
+
+
+</style>
+<body>
+
+    <h1 style="color: orange;" style="text-align: center;">Student Complain Form</h1>
+    <p>
+    
+    To,<br>
+    The Warden <br>
+    Living Space, Bangalore. <br>
+    </p>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Student Name:
+                </td>
+                <td>
+                  <input type="text" placeholder="Enter Name"  name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hostel Unit:
+                </td>
+                <td>
+                  <input type="radio" name="Unit">Unit-1
+                  <input type="radio" name="Unit">Unit-2
+                  <input type="radio" name="Unit">Unit-3
+                  <input type="radio" name="Unit">Unit-4
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Room Number:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your room number" name="">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Course/College:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter Course/College" name="">
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    Contact Number:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter personal contact no." name="">
+                </td>
+            </tr> 
+
+ 
+
+        </table>
+        <p>
+            <label>
+                What are the issues being faced?
+            </label>
+            <select id="yes" name="problems">
+                <option value="yes">Electrical Issue</option>
+                <option value="yes">Plumbing Issue</option>
+                <option value="yes">Carpentry Issue</option>
+                <option value="yes">Noise Complaint</option>
+                <option value="yes">Request for change of room>
+                <option value="yes">Food Complain</option>
+                <option value="yes">Medical Help</option>
+                <option value="yes">Others</option>
+                
+
+            </select>
+        </p>
+        <button class="button button1">Submit</button>
+
+    </form>
+    
+</body>
+</html>
